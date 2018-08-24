@@ -12,6 +12,10 @@ public class Test {
 		System.out.println(res);
 		System.out.println("hola mundo!");
 		
+		for(Operaciones ope:Operaciones.values()) {
+			System.out.println(ope.name());
+		}
+				
 	}
 
 }
